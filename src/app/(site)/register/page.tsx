@@ -13,7 +13,7 @@ export default function Register({}: Props) {
     const password = e.target[2].value;
 
     try {
-      const data = await axios.post("http://localhost:3000/api/register", {
+      const data = await axios.post("https://auth-next-f6c8n9tl6-natthawutsk.vercel.app/register", {
         name,
         email,
         password,
